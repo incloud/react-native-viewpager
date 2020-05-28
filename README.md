@@ -124,7 +124,9 @@ const styles = StyleSheet.create({
 |`keyboardDismissMode: ('none' / 'on-drag')`| Determines whether the keyboard gets dismissed in response to a drag|both
 |`orientation: Orientation`|Set `horizontal` or `vertical` scrolling orientation (it does **not** work dynamically)|both
 |`transitionStyle: TransitionStyle`|Use `scroll` or `curl` to change transition style (it does **not** work dynamically)|iOS
-|`showPageIndicator: boolean`|Shows the dots indicator at the bottom of the view|iOS
+|~`showPageIndicator: boolean`~|~Shows the dots indicator at the bottom of the view~|iOS
+|`IndicatorViewPager`: Component|Use to show page indicator at bottom|both
+|`PagerDotIndicator`: Compoent|Use to provide indicator for `IndicatorViewPager`|both
 
 ## Preview
 

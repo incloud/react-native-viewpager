@@ -82,7 +82,7 @@ function getViewManagerConfig(viewManagerName) {
  * ```
  */
 
-class ViewPager extends React.Component<ViewPagerProps> {
+export default class ViewPager extends React.Component<ViewPagerProps> {
   isScrolling = false;
 
   componentDidMount() {
@@ -184,5 +184,3 @@ class ViewPager extends React.Component<ViewPagerProps> {
     );
   }
 }
-
-module.exports = ViewPager;

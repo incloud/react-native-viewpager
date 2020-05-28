@@ -14,6 +14,10 @@ import type {PageSelectedEvent as _PageSelectedEvent} from './types';
 import type {TransitionStyle as _TransitionStyle} from './types';
 import type {Orientation as _Orientation} from './types';
 
+import ViewPager from './ViewPager';
+import IndicatorViewPager from './IndicatorViewPager';
+import PagerDotIndicator from './PagerDotIndicator';
+
 export type PageScrollState = _PageScrollState;
 export type PageScrollEvent = _PageScrollEvent;
 export type PageScrollStateChangedEvent = _PageScrollStateChangedEvent;
@@ -21,4 +25,8 @@ export type PageSelectedEvent = _PageSelectedEvent;
 export type TransitionStyle = _TransitionStyle;
 export type Orientation = _Orientation;
 
-module.exports = require('./ViewPager');
+export {ViewPager, IndicatorViewPager, PagerDotIndicator};
+
+//module.exports = require('./ViewPager');
+// module.exports = require('./IndicatorViewPager');
+// module.exports = require('./PagerDotIndicator');

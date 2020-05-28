@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
 |`transitionStyle: TransitionStyle`|Use `scroll` or `curl` to change transition style (it does **not** work dynamically)|iOS
 |~`showPageIndicator: boolean`~|~Shows the dots indicator at the bottom of the view~|iOS
 |`IndicatorViewPager`: Component|Use to show page indicator at bottom|both
-|`PagerDotIndicator`: Compoent|Use to provide indicator for `IndicatorViewPager`|both
+|`PagerDotIndicator`: Component|Use to provide indicator for `IndicatorViewPager`|both
 
 ## Preview
 

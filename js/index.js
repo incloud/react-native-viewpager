@@ -26,7 +26,3 @@ export type TransitionStyle = _TransitionStyle;
 export type Orientation = _Orientation;
 
 export {ViewPager, IndicatorViewPager, PagerDotIndicator};
-
-//module.exports = require('./ViewPager');
-// module.exports = require('./IndicatorViewPager');
-// module.exports = require('./PagerDotIndicator');

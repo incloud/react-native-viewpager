@@ -249,7 +249,9 @@ RCT_NOT_IMPLEMENTED(- (instancetype)init)
             if (foundViewControlers.count > 0){
                 [tempChildrenViewControllers addObject:foundViewControlers[0]];
             } else {
-                [tempChildrenViewControllers addObject:[self createChildViewController:view]];
+                 if([view isKindOfClass:[UIViewController class]]) {
+                    [tempChildrenViewControllers addObject:(UIViewController*)view];
+                }
             }
         }
         _childrenViewControllers = tempChildrenViewControllers;
